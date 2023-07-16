@@ -1,0 +1,14 @@
+*
+!.gitignore
+!fish/
+!fish/config.fish
+!kitty/
+!kitty/kitty.conf
+!nvim/
+!nvim/init.lua
+!nvim/lua/
+!nvim/lua/config/
+!nvim/lua/config/init.lua
+!nvim/lua/config/keymaps.lua
+!nvim/lua/config/options.lua
+!nvim/lua/config/plugins.lua
