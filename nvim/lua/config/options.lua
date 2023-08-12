@@ -12,9 +12,11 @@ opt.cursorline = true
 opt.termguicolors = true
 opt.backspace = "indent,eol,start"
 vim.cmd('colorscheme nightfly')
+vim.opt.fillchars = { eob = ' ' }
 require('lualine').setup({
   options = {
     theme = require("lualine.themes.nightfly"),
   }
 })
+require('lspconfig')
 require('nvim-tree').setup()

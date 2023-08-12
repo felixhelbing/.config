@@ -22,7 +22,6 @@ packer.init({
     end,
   },
 })
-
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
   use("nvim-tree/nvim-tree.lua")
@@ -30,5 +29,7 @@ return packer.startup(function(use)
   use { 'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
+  use('neovim/nvim-lspconfig')
+  use('mfussenegger/nvim-jdtls')
   require("packer").sync()
 end)
